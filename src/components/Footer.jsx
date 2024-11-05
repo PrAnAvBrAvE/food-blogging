@@ -27,10 +27,10 @@ const Footer = () => {
           {/* More Links Section */}
           <div>
             <h3 className="font-bold text-sm mb-4" style={{color:'rgba(14,35,104,1)'}} >More</h3>
-            <p className="text-gray-600 text-sm mb-2">About us</p>
-            <p className="text-gray-600 text-sm mb-2">Products</p>
-            <p className="text-gray-600 text-sm mb-2">Career</p>
-            <p className="text-gray-600 text-sm">Contact Us</p>
+            <p className="text-gray-600 text-sm mb-2 cursor-pointer">About us</p>
+            <p className="text-gray-600 text-sm mb-2 cursor-pointer">Products</p>
+            <p className="text-gray-600 text-sm mb-2 cursor-pointer">Career</p>
+            <p className="text-gray-600 text-sm cursor-pointer">Contact Us</p>
           </div>
 
           {/* Social Links Section */}
@@ -44,10 +44,10 @@ const Footer = () => {
                 <img 
                   src={insta} 
                   alt="Instagram" 
-                  className="w-5 h-5" 
+                  className="w-5 h-5 cursor-pointer" 
                 />
               </span>
-              <span className="text-gray-600 text-sm">
+              <span className="text-gray-600 text-sm cursor-pointer">
                 <img 
                   src={twitter} 
                   alt="Twitter" 
@@ -58,7 +58,7 @@ const Footer = () => {
                 <img 
                   src={fb} 
                   alt="Facebook" 
-                  className="w-5 h-5" 
+                  className="w-5 h-5 cursor-pointer" 
                 />
               </span>
             </div>
