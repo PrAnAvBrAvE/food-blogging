@@ -4,7 +4,6 @@ const ArticleCard = ({ title, description, image }) => {
   return (
     <div
       className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow p-4 border border-gray-300"
-      style={{ width: '381px', height: '554px' }} 
     >
       <img
         src={image}
