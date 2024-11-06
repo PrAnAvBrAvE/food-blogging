@@ -35,9 +35,6 @@ const Footer = () => {
 
           {/* Social Links Section */}
           <div>
-            <p className='text-sm text-center mb-4 md:block' style={{ color: 'rgba(130, 139, 156, 1)' }}>
-              © 2022 Food Truck Example
-            </p>
             <h3 className="font-bold text-sm mb-4 hidden md:block" style={{color:'rgba(14,35,104,1)'}} >Social Links</h3>
             <div className="flex gap-4 justify-center md:justify-start">
               <span className="text-gray-600 text-sm">
@@ -63,7 +60,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <p className='text-sm md:mt-16 text-center md:text-left hidden' style={{ color: 'rgba(130, 139, 156, 1)' }}>
+            <p className='text-sm md:mt-16 text-center md:text-left mt-8' style={{ color: 'rgba(130, 139, 156, 1)' }}>
               © 2022 Food Truck Example
             </p>
 
